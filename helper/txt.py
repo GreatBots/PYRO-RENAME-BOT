@@ -35,12 +35,12 @@ class mr(object):
                   """
 
     ABOUT_TXT = """
-**Hey! My name is {}.**
+**Hey! My name is Renamer Bot.**
 I can rename files with custom thumbnail and caption support.
 
 **About Me :**
 
-  **- Name      :** {}
+  **- Name      :** Renamer Bot
 
   **- Creator   :** @myownbots
 
