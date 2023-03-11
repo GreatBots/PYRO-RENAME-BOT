@@ -37,7 +37,7 @@ async def start(client, message):
     user = message.from_user
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id)             
-    txt=f"<b>👋 Hey {user.mention}</b>\nI'm A Renamer Bot and I can rename your files with thumbnail and caption support.\nI can also convert files to video.\n\nFor More Informations Click On Help",
+    txt=f"<b>👋 Hey {user.mention}</b>\nI'm A Renamer Bot and I can rename your files with thumbnail and caption support.\nI can also convert files to video.\n\nFor More Informations Click On Help"
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton("🔥 Updates 🔥", url='https://t.me/myownbots')
         ],[
